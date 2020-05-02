@@ -1,0 +1,7 @@
+Terminar programa --> pressione ctrl+C
+Digite um valor inteiro: 100 ao quadrado é 10000
+Digite um valor inteiro: 200 ao quadrado é 40000
+Digite um valor inteiro: 400 ao quadrado é 160000
+Digite um valor inteiro: 150 ao quadrado é 22500
+Digite um valor inteiro: 
+tchau!
