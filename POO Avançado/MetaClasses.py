@@ -7,7 +7,17 @@ def main():
     print(a)
     print(a.idade)
 
-    print('Se uma classe um objeto de outra classe, qual classe seria essa?'
+    print('\n\033[1;31mPodemos definir uma func para o type indicando que sera uma função.\033[m')
+
+    def returnName(self):
+        self.name = 'carlos'
+
+    test = type('Test', (object, ), {'func': returnName})
+    a = test()
+    a.func()
+    print(a.name)
+
+    print('\n\033[1;30mSe uma classe é um objeto de outra classe, qual classe seria essa?'
           '\nVamos ver com o metodo __class__')
 
     a = Umaclasse()
