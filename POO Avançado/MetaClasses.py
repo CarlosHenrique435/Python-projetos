@@ -42,7 +42,7 @@ class MinhaMeta(type):
         print(bases)
         print(dct)
         return super(MinhaMeta, meta).__new__(meta, name, bases, dct)
-        #Depois de consutar o metodo __new__ ele chama o metodo construtor
+        #Depois de consutar o metodo __new__ ele chama o metodo inicializador
 
     def __init__(self, name, bases, dct):
         print('--------------------------')
