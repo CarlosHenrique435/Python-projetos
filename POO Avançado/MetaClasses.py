@@ -42,7 +42,8 @@ class MinhaMeta(type):
         print(bases)
         print(dct)
         print(super(MinhaMeta, meta).__new__(meta, name, bases, dct))
-        return super(MinhaMeta, meta).__new__(meta, name, bases, dct)
+        return super(MinhaMeta, meta).__new__(meta, name, bases, dct)#Chamamos o metodo __new__ da metaclasse de MinhaMEta
+        #                                                             Como argumento para o __new__ a meta
         #Depois de consutar o metodo __new__ ele chama o metodo inicializador
 
     def __init__(self, name, bases, dct):
