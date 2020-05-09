@@ -10,7 +10,6 @@ def main():
     del callit.nome
 
 
-
 class Property(object):
     "Essa classe seria como o property" ## --> Documentação do property
     def __get__(self, instance, owner): ## --> owner seria a classe que contem a instancia

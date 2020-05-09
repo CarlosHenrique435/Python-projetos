@@ -53,7 +53,7 @@ print(int('00101001', 2))
 print(int(0b00100101 | 0b00100111))
 print(int('00100111', 2))
 """===================================================================================="""
-#BUT XOR = ^
+#BiT XOR = ^
 #Com o XOR é um pouco diferente.
 #ele paga o primeiro valor e soma com o segundo(outra comparação) e tiramos o resta da divisão para obter o bit
 # 1 ^ 1 = 0 why: 1+1 = 2%2 = 0
