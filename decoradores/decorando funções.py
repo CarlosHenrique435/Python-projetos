@@ -10,6 +10,8 @@ Contendo sua sintaxe propia usando "@" Sintact sugar --> Açucar sintatico
 """
                    NÃO RECOMENDADA!!!
 """
+
+
 def receive(function):
     def Decora():
         print("È um prazer te conhecer!!!")
